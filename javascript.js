@@ -62,10 +62,11 @@ $("#searchButton").on("click", function(){
 
 
 $("#clearButton").on("click", function() {
-  $("#searchTerm").empty();
-  $("#numRecords").empty();
-  $("#startYear").empty();
-  $("#endYear").empty();
+  $("#searchTerm").val("");
+  // $("#numRecords").empty();
+  $("#startYear").val("");
+  $("#endYear").val("");
+  $("#searchResults").empty();
 });
 
 
